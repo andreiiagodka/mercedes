@@ -1,0 +1,407 @@
+section.front section{
+  margin: auto;
+}
+
+.side-mirrors {
+  position: relative;
+  top: 170px;
+  height: 35px;
+  width: 510px;
+}
+
+.side-mirror-parts {
+  position: relative;
+  height: 35px;
+  width: 65px;
+  background-color: #2F4F4F;
+}
+
+.side-mirror-left {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 10px;
+}
+
+.side-mirror-right {
+  bottom: 35px;
+  left: 445px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 10px;
+}
+
+.wind-screen {
+  position: relative;
+  top: 40px;
+  width: 380px;
+  height: 130px;
+}
+
+.wind-screen-parts {
+  box-sizing: border-box;
+  position: relative;
+  height: 130px;
+  background-color: #ADD8E6;
+  border-top: 10px solid #2F4F4F;
+}
+
+.left-wind-screen {
+  left: 10px;
+  width: 50px;
+  transform: skew(-10deg);
+  border-top-left-radius: 10px;
+  border-left: 2px solid #2F4F4F;
+}
+
+.middle-wind-screen {
+  bottom: 130px;
+  left: 45px;
+  width: 290px;
+}
+
+.wiper {
+  position: relative;
+  top: 100px;
+  width: 100%;
+  height: 20px;
+}
+
+div.wiper div {
+  display: inline-block;
+  position: relative;
+  background-color: black;
+}
+
+.grade-row {
+  bottom: 11px;
+  height: 40px;
+  width: 2px;
+  transform: rotate(-60deg);
+}
+
+.h-row {
+  bottom: 40px;
+  width: 100px;
+  height: 2px;
+}
+
+.h-row-left {
+  left: 20px;
+}
+
+.grade-row-right {
+  left: 50px;
+}
+
+.h-row-right {
+  left: 70px;
+}
+
+.right-wind-screen {
+  z-index: -1;
+  bottom: 260px;
+  left: 320px;
+  width: 50px;
+  transform: skew(10deg);
+  border-top-right-radius: 10px;
+  border-right: 2px solid #2F4F4F;
+}
+
+.cowl {
+  position: relative;
+  top: 40px;
+  height: 90px;
+  width: 500px;
+}
+
+.cowl-parts {
+  position: relative;
+  height: 90px;
+  background-color: #2F4F4F;
+}
+
+.left-cowl {
+  left: 30px;
+  width: 100px;
+  transform: skew(-30deg);
+  border-top-left-radius: 10px;
+}
+
+.middle-cowl {
+  bottom: 90px;
+  left: 100px;
+  width: 300px;
+}
+
+.add-cowl {
+  position: relative;
+  height: 90px;
+  background-color: #2F4F4F;
+  width: 10px;
+}
+
+.add-cowl-left {
+  left: 45px;
+  transform: skew(10deg);
+  box-shadow: -10px 0 20px;
+}
+
+.add-cowl-right {
+  left: 245px;
+  bottom: 90px;
+  transform: skew(-10deg);
+  box-shadow: 10px 0 20px;
+}
+
+.right-cowl {
+  z-index: -1;
+  left: 370px;
+  bottom: 180px;
+  width: 100px;
+  transform: skew(30deg);
+  border-top-right-radius: 10px;
+}
+
+.fr-top-brd-radius {
+  border-top-right-radius: 90px 20px;
+  border-top-left-radius: 90px 20px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+.front-top {
+  position: relative;
+  height: 100px;
+  width: 500px;
+  background-color: #2F4F4F;
+  box-shadow: 0 -1px 0px;
+}
+
+.radiator {
+  position: relative;
+  left: 150px;
+  bottom: 25px;
+  width: 200px;
+  height: 120px;
+  background-color: #DCDCDC;
+  box-shadow: 0 -5px 20px;
+}
+
+.heat-radiator {
+  position: relative;
+  left: 10px;
+  top: 10px;
+  width: 180px;
+  height: 100px;
+  background-color: #A9A9A9;
+}
+
+div.horizontal-row div{
+  position: relative;
+  top: 30px;
+  width: 190px;
+  height: 1px;
+  margin-top: 20px;
+  background-color:  #DCDCDC;
+  border-bottom-right-radius: 90px 1px;
+  border-bottom-left-radius: 90px 1px;
+}
+
+.vertical-row {
+  position: relative;
+  bottom: 45px;
+  left: 90px;
+  width: 1px;
+  height: 110px;
+  background-color:  #DCDCDC;
+}
+
+.h-light-brd-radius {
+  border-top-left-radius: 30px 90px;
+  border-bottom-left-radius: 30px 90px;
+}
+
+.headlight{
+  position: absolute;
+  top: 20px;
+  width: 160px;
+  height: 60px;
+  background-color: #D2691E;
+}
+
+.headlight-left {
+  left: -10px;
+}
+
+.headlight-wrapped {
+  position: absolute;
+  left: 20px;
+  width: 140px;
+  height: 60px;
+  background-color: #A9A9A9;
+}
+
+.headlight-wrapped-left {
+  left: 20px;
+}
+
+div.h-light-hrs div {
+  position: relative;
+  top: 5px;
+  width: 99%;
+  height: 1px;
+  margin-top: 5px;
+  background-color:  #DCDCDC;
+}
+
+.hrs-left {
+  left: 2px;
+}
+
+.circle-big {
+  position: relative;
+  bottom: 45px;
+  width: 50px;
+  height: 50px;
+  border-radius: 90px;
+  background-color: #C0C0C0;
+  opacity: 0.7;
+  border: 1px solid black;
+}
+
+.circle-small {
+  position: relative;
+  bottom: 85px;
+  width: 30px;
+  height: 30px;
+  border-radius: 90px;
+  background-color: #B8860B;
+  opacity: 0.7;
+  border: 1px solid black;
+}
+
+.left-circle-big {
+  left: 10px;
+}
+
+.left-circle-small {
+  left: 70px;
+}
+
+.headlight-right {
+  right: -10px;
+  border-top-right-radius: 30px 90px;
+  border-bottom-right-radius: 30px 90px;
+}
+
+.headlight-wrapped-right {
+  left: 0px;
+  border-top-right-radius: 30px 90px;
+  border-bottom-right-radius: 30px 90px;
+}
+
+.hrs-right {
+  right: 2px;
+}
+
+.right-circle-big {
+  left: 80px;
+}
+
+.right-circle-small {
+  left: 40px;
+}
+
+.front-middle {
+  height: 30px;
+  width: 520px;
+  border-radius: 10px;
+  background-color: #2F4F4F;
+  border-left: 15px solid #708090;
+  border-right: 15px solid #708090;
+}
+
+.iron-border {
+  position: relative;
+  top: 10px;
+  width: 190px;
+  height: 20px;
+  background-color:  #708090;
+}
+
+.iron-border-left {
+  border-top-right-radius: 90px;
+  border-bottom-right-radius: 90px;
+}
+
+.iron-border-right {
+  top: -10px;
+  left: 330px;
+  border-top-left-radius: 90px;
+  border-bottom-left-radius: 90px;
+}
+
+.car-number {
+  position: relative;
+  bottom: 45px;
+  left: 208px;
+  width: 100px;
+  height: 40px;
+  background-color: #DCDCDC;
+  border: 3px solid #708090;
+  border-radius: 10px;
+}
+
+.car-number-name {
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.number-florida {
+  font-size: 7pt;
+  color: blue;
+}
+
+.number {
+  font-size: 11pt;
+}
+
+.front-bottom {
+  height: 50px;
+  width: 500px;
+  background-color: #2F4F4F;
+  border-bottom-right-radius: 100px 50px;
+  border-bottom-left-radius: 100px 50px;
+}
+
+.bottom {
+  position: relative;
+  top: 35px;
+  left: 90px;
+  width: 320px;
+  height: 15px;
+  background-color: black;
+  border-top-right-radius: 100px 50px;
+  border-top-left-radius: 100px 50px;
+}
+
+.wheels {
+  display: inline-block;
+  position: relative;
+  z-index: -1;
+  height: 100px;
+  width: 70px;
+  background-color: black;
+}
+
+.wheel-left {
+  left: 20px;
+  border-bottom-left-radius: 20px 50px;
+  border-bottom-right-radius: 10px 50px;
+}
+
+.wheel-right {
+  left: 335px;
+  border-bottom-left-radius: 10px 50px;
+  border-bottom-right-radius: 20px 50px;
+}
